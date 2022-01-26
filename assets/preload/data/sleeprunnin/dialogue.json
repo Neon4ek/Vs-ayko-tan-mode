@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.03,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Well, you know, it was fun"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "But i'm still scared for this hole"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "ok",
+			"text": "Okay, then i,ll close it with a nightstand, let's continue"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfdi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "worry",
+			"text": "i do not understand you..."
+		}
+	]
+}

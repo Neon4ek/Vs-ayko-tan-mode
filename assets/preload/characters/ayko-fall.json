@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				240
+			],
+			"loop": true,
+			"fps": 10,
+			"anim": "idle",
+			"indices": [],
+			"name": "ayko-fall idle"
+		},
+		{
+			"offsets": [
+				4,
+				241
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "ayko-fall left"
+		},
+		{
+			"offsets": [
+				0,
+				239
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "ayko-fall down"
+		},
+		{
+			"offsets": [
+				1,
+				240
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "singUP",
+			"indices": [],
+			"name": "ayko-fall up"
+		},
+		{
+			"offsets": [
+				-1,
+				239
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "ayko-fall right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ayko-fall",
+	"position": [
+		-80,
+		150
+	],
+	"healthicon": "aykotan",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		60,
+		255
+	],
+	"camera_position": [
+		-150,
+		-80
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

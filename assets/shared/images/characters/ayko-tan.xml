@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ayko-tan.png"><SubTexture name="ayko-tan down0000" x="0" y="0" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan down0001" x="766" y="0" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan down0002" x="1532" y="0" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan down0003" x="2298" y="0" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan idle0000" x="0" y="1063" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan idle0001" x="766" y="1063" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan idle0002" x="1532" y="1063" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan idle0003" x="2298" y="1063" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan idle0004" x="0" y="2126" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan idle0005" x="766" y="2126" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan left0000" x="1532" y="2126" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan left0001" x="2298" y="2126" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan left0002" x="0" y="3189" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan right0000" x="766" y="3189" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan right0001" x="1532" y="3189" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan right0002" x="2298" y="3189" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan right0003" x="0" y="4252" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan up0000" x="766" y="4252" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan up0001" x="1532" y="4252" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan up0002" x="2298" y="4252" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+<SubTexture name="ayko-tan up0003" x="0" y="5315" width="766" height="1063" frameX="0" frameY="0" frameWidth="766" frameHeight="1063" />
+</TextureAtlas>

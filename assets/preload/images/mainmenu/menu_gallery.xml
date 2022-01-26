@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_gallery.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gallery basic0000" x="0" y="0" width="521" height="167"/>
+	<SubTexture name="gallery basic0001" x="0" y="0" width="521" height="167"/>
+	<SubTexture name="gallery basic0002" x="0" y="167" width="521" height="167"/>
+	<SubTexture name="gallery basic0003" x="0" y="167" width="521" height="167"/>
+	<SubTexture name="gallery basic0004" x="0" y="167" width="521" height="167"/>
+	<SubTexture name="gallery basic0005" x="0" y="334" width="521" height="167"/>
+	<SubTexture name="gallery basic0006" x="0" y="334" width="521" height="167"/>
+	<SubTexture name="gallery basic0007" x="0" y="334" width="521" height="167"/>
+	<SubTexture name="gallery white0000" x="0" y="501" width="521" height="167"/>
+	<SubTexture name="gallery white0001" x="0" y="501" width="521" height="167"/>
+	<SubTexture name="gallery white0002" x="0" y="668" width="521" height="167"/>
+	<SubTexture name="gallery white0003" x="0" y="668" width="521" height="167"/>
+	<SubTexture name="gallery white0004" x="0" y="668" width="521" height="167"/>
+	<SubTexture name="gallery white0005" x="0" y="835" width="521" height="167"/>
+	<SubTexture name="gallery white0006" x="0" y="835" width="521" height="167"/>
+	<SubTexture name="gallery white0007" x="0" y="835" width="521" height="167"/>
+</TextureAtlas>

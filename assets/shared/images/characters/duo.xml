@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="duo.png"><SubTexture name="duo alt-down0000" x="0" y="0" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-down0001" x="1196" y="0" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-left0000" x="2392" y="0" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-left0001" x="3588" y="0" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-left0002" x="4784" y="0" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-rigth0000" x="5980" y="0" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-rigth0001" x="0" y="1063" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-rigth0002" x="1196" y="1063" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-up0000" x="2392" y="1063" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-up0001" x="3588" y="1063" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo alt-up0002" x="4784" y="1063" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo down0000" x="5980" y="1063" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo down0001" x="0" y="2126" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo down0002" x="1196" y="2126" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo left0000" x="2392" y="2126" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo left0001" x="3588" y="2126" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo left0002" x="4784" y="2126" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo right0000" x="5980" y="2126" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo right0001" x="0" y="3189" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo right0002" x="1196" y="3189" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo up0000" x="2392" y="3189" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo up0001" x="3588" y="3189" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo up0002" x="4784" y="3189" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0000" x="5980" y="3189" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0001" x="0" y="4252" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0002" x="1196" y="4252" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0003" x="2392" y="4252" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0004" x="3588" y="4252" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0005" x="4784" y="4252" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0006" x="5980" y="4252" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0007" x="0" y="5315" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0008" x="1196" y="5315" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0009" x="2392" y="5315" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0010" x="3588" y="5315" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0011" x="4784" y="5315" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0012" x="5980" y="5315" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0013" x="0" y="6378" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo clash0014" x="1196" y="6378" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo idle0000" x="2392" y="6378" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo idle0001" x="3588" y="6378" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo idle0002" x="4784" y="6378" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo idle0003" x="5980" y="6378" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo idle0004" x="0" y="7441" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+<SubTexture name="duo idle0005" x="1196" y="7441" width="1196" height="1063" frameX="0" frameY="0" frameWidth="1196" frameHeight="1063" />
+</TextureAtlas>

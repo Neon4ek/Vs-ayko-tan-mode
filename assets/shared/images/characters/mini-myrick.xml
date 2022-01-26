@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mini-myrick.png"><SubTexture name="mini-myrick down0000" x="0" y="0" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick down0001" x="665" y="0" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick down0002" x="1330" y="0" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick idle0000" x="1995" y="0" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick idle0001" x="0" y="823" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick idle0002" x="665" y="823" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick idle0003" x="1330" y="823" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick left0000" x="1995" y="823" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick left0001" x="0" y="1646" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick left0002" x="665" y="1646" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick right0000" x="1330" y="1646" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick right0001" x="1995" y="1646" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick right0002" x="0" y="2469" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick up0000" x="665" y="2469" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick up0001" x="1330" y="2469" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+<SubTexture name="mini-myrick up0002" x="1995" y="2469" width="665" height="823" frameX="0" frameY="0" frameWidth="665" frameHeight="823" />
+</TextureAtlas>

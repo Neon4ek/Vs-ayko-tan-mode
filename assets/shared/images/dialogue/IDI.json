@@ -1,0 +1,24 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		10,
+		-140
+	],
+	"scale": 0.8,
+	"animations": [
+		{
+			"loop_name": "IDI angry",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "IDI angry",
+			"anim": "angry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "IDI"
+}

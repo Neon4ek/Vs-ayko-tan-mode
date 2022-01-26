@@ -1,0 +1,48 @@
+{
+	"songs": [
+		[
+			"lucid-dreams",
+			"aykotan",
+			[
+				66,
+				33,
+				255
+			]
+		],
+		[
+			"sleeprunnin",
+			"aykotan",
+			[
+				66,
+				33,
+				255
+			]
+		],
+		[
+			"nightmare",
+			"postguys",
+			[
+				0,
+				60,
+				255
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "ABg",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Begin of the story",
+	"weekName": "Ayko-Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

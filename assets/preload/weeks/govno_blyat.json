@@ -1,0 +1,66 @@
+{
+	"songs": [
+		[
+			"postal",
+			"ike",
+			[
+				40,
+				20,
+				255
+			]
+		],
+		[
+			"no-villains",
+			"ike",
+			[
+				40,
+				20,
+				255
+			]
+		],
+		[
+			"j-bf",
+			"aykotan",
+			[
+				66,
+				73,
+				255
+			]
+		],
+		[
+			"banquet_be_nuit",
+			"mm",
+			[
+				66,
+				73,
+				255
+			]
+		],
+		[
+			"cheating",
+			"ike",
+			[
+				66,
+				73,
+				255
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Your New Week",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

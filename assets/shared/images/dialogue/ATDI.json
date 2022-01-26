@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		10,
+		-140
+	],
+	"scale": 0.8,
+	"animations": [
+		{
+			"loop_name": "ATDI what",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ATDI what",
+			"anim": "what",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "ATDI ok",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ATDI ok",
+			"anim": "ok",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "ATDI happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ATDI happy",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "ATDI worry",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ATDI worry",
+			"anim": "worry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "ATDI scary",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ATDI scary",
+			"anim": "scary",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "ATDI"
+}

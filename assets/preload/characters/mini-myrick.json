@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				239
+			],
+			"loop": true,
+			"fps": 10,
+			"anim": "idle",
+			"indices": [],
+			"name": "mini-myrick idle"
+		},
+		{
+			"offsets": [
+				29,
+				239
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "mini-myrick left"
+		},
+		{
+			"offsets": [
+				-25,
+				239
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "mini-myrick right"
+		},
+		{
+			"offsets": [
+				0,
+				241
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "mini-myrick down"
+		},
+		{
+			"offsets": [
+				0,
+				239
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "singUP",
+			"indices": [],
+			"name": "mini-myrick up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mini-myrick",
+	"position": [
+		-80,
+		200
+	],
+	"healthicon": "mm",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-10,
+		10
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

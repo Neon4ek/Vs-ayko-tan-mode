@@ -1,0 +1,53 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.03,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "what",
+			"text": "Oh god who are you?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfdi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "worry",
+			"text": "Oh no IKE will kill me for this hole"
+		},
+		{
+			"speed": 0.065,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "ok",
+			"text": "Well...."
+		},
+		{
+			"speed": 0.03,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "I see you have a microphone!"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Before IKE comes, we can have some fun"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfdi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bap"
+		}
+	]
+}

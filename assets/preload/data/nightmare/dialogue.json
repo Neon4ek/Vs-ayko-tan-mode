@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.02,
+			"portrait": "idi",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "What's going on here?"
+		},
+		{
+			"speed": 0.015,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "scary",
+			"text": "Oh fuck..."
+		},
+		{
+			"speed": 0.03,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "worry",
+			"text": "Listen, let me explain"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "atdi",
+			"boxState": "normal",
+			"expression": "worry",
+			"text": "If i understand what's going on"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "IDI",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Fuck this is boyfriend.xml from Friday Night Funckin!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfdi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bap"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "IDI",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "And where did you get my microphone from?"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "IDI",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "GIVE IT BACK!"
+		}
+	]
+}

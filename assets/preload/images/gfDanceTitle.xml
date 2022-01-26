@@ -1,0 +1,6 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gfDanceTitle.png"><SubTexture name="GfDance gfdance0000" x="0" y="0" width="728" height="681" frameX="0" frameY="0" frameWidth="728" frameHeight="681" />
+<SubTexture name="GfDance gfdance0001" x="728" y="0" width="728" height="681" frameX="0" frameY="0" frameWidth="728" frameHeight="681" />
+<SubTexture name="GfDance gfdance0002" x="0" y="681" width="728" height="681" frameX="0" frameY="0" frameWidth="728" frameHeight="681" />
+<SubTexture name="GfDance gfdance0003" x="728" y="681" width="728" height="681" frameX="0" frameY="0" frameWidth="728" frameHeight="681" />
+</TextureAtlas>

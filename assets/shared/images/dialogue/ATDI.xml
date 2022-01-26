@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ATDI.png"><SubTexture name="ATDI angry0000" x="0" y="0" width="508" height="925" frameX="0" frameY="0" frameWidth="508" frameHeight="925" />
+<SubTexture name="ATDI what0000" x="508" y="0" width="508" height="925" frameX="0" frameY="0" frameWidth="508" frameHeight="925" />
+<SubTexture name="ATDI ok0000" x="0" y="925" width="508" height="925" frameX="0" frameY="0" frameWidth="508" frameHeight="925" />
+<SubTexture name="ATDI happy0000" x="508" y="925" width="508" height="925" frameX="0" frameY="0" frameWidth="508" frameHeight="925" />
+<SubTexture name="ATDI worry0000" x="0" y="1850" width="508" height="925" frameX="0" frameY="0" frameWidth="508" frameHeight="925" />
+<SubTexture name="ATDI scary0000" x="508" y="1850" width="508" height="925" frameX="0" frameY="0" frameWidth="508" frameHeight="925" />
+</TextureAtlas>
