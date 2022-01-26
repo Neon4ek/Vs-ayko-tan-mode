@@ -18,8 +18,7 @@ class CoolUtil
 {
 	public static var difficulties:Array<String> = [
 		'Normal',
-		'Hard',
-		'Random'
+		'Hard'
 	];
 	public static var defaultDifficulty:String = 'Normal';
 
