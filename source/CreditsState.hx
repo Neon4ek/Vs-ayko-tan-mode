@@ -46,6 +46,9 @@ class CreditsState extends MusicBeatState
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
 
+		FlxG.sound.playMusic(Paths.music('CreditSong'), 0);
+		FlxG.sound.music.fadeIn(1, 0, 0.7);
+
 		#if MODS_ALLOWED
 		//trace("finding mod shit");
 		for (folder in Paths.getModDirectories())
@@ -164,6 +167,9 @@ class CreditsState extends MusicBeatState
 			}
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 			MusicBeatState.switchState(new MainMenuState());
+
+			FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+			FlxG.sound.music.fadeIn(2, 0, 0.7);
 		}
 		if(controls.ACCEPT) {
 			CoolUtil.browserLoad(creditsStuff[curSelected][3]);
