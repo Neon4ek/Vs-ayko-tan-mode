@@ -74,7 +74,7 @@ class CreditsState extends MusicBeatState
 			['Ike',     		 	 'ayk',				'Voice actor for radio Shit and Piss',					'https://www.youtube.com/channel/UC58XrCG5H-mNymUm60buw6Q',  'ff675e'],
 			[''],
 			['Cover from mod']
-			['Tails get trolled',	 'tails',			'Sick no-villains',										'https://gamebanana.com/mods/320596',						 'e18e10']
+			['Tails get trolled',	 'tails',			'Sick no-villains',										'https://gamebanana.com/mods/320596',						 'e18e10'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'FFDD33'],
