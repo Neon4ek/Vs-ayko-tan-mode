@@ -73,8 +73,8 @@ class CreditsState extends MusicBeatState
 			['Ayko-tan',     		 'ayko-tan',		'Top waifu',											'https://www.google.com/search?q=top+waifu&tbm=isch&ved=2ahUKEwiUwMDhi9L0AhVvxosKHaOkBBAQ2-cCegQIABAA&oq=top+wai&gs_lcp=CgNpbWcQARgAMgUIABCABDIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjoHCCMQ7wMQJzoECAAQGDoICAAQgAQQsQM6BAgAEEM6CwgAEIAEELEDEIMBOgcIABCxAxBDOgQIABATOggIABAFEB4QE1CZCVjvJ2C6LmgDcAB4AIAB1QGIAcIJkgEFMC44LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=hYmvYdTpOe-MrwSjyZKAAQ&bih=977&biw=1857',  '6546ff'],
 			['Ike',     		 	 'ayk',				'Voice actor for radio Shit and Piss',					'https://www.youtube.com/channel/UC58XrCG5H-mNymUm60buw6Q',  'ff675e'],
 			[''],
-			['Cover from mod']
-			['Tails get trolled',	 'tails',			'Sick no-villains',										'https://gamebanana.com/mods/320596',						 'e18e10'],
+			['Cover from mod'],
+			['Tails get trolled',	 'tails',			'Sick no villains',										'https://gamebanana.com/mods/320596',						 'e18e10'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'FFDD33'],
