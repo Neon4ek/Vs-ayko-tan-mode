@@ -609,6 +609,10 @@ class PlayState extends MusicBeatState
 			case 'schoolEvil':
 				var evilTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //nice
 				insert(members.indexOf(dadGroup) - 1, evilTrail);
+
+			case 'pricol':
+				var susTrail = new FlxTrail(dad, null, 5, 7, 0.3, 0.001); //seks
+				insert(members.indexOf(dadGroup) - 1, susTrail);
 		}
 
 		var file:String = Paths.json(songName + '/dialogue'); //Checks for json/Psych Engine dialogue
