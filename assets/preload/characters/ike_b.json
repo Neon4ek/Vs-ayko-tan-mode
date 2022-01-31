@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				240
+			],
+			"loop": true,
+			"fps": 15,
+			"anim": "idle",
+			"indices": [],
+			"name": "Ike idle"
+		},
+		{
+			"offsets": [
+				116,
+				236
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Ike left"
+		},
+		{
+			"offsets": [
+				-6,
+				323
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Ike up"
+		},
+		{
+			"offsets": [
+				-102,
+				246
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Ike right"
+		},
+		{
+			"offsets": [
+				0,
+				182
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Ike dwon"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Ike_b",
+	"position": [
+		-210,
+		10
+	],
+	"healthicon": "ike",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		60,
+		255
+	],
+	"camera_position": [
+		-110,
+		-40
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}
