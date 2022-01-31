@@ -6577,19 +6577,9 @@
 				"bpm": 125,
 				"changeBPM": false,
 				"mustHitSection": true
-			},
-			{
-				"gfSection": false,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 125,
-				"changeBPM": false,
-				"mustHitSection": true
 			}
 		],
-		"player2": "ike",
+		"player2": "ike_b",
 		"player3": "nogf",
 		"song": "Cheating",
 		"validScore": true,
