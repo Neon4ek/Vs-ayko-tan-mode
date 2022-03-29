@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="ayko-fall.png"><SubTexture name="ayko-fall down0000" x="0" y="0" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall down0001" x="607" y="0" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall down0002" x="1214" y="0" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall idle0000" x="1821" y="0" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall idle0001" x="0" y="782" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall idle0002" x="607" y="782" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall idle0003" x="1214" y="782" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall left0000" x="1821" y="782" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall left0001" x="0" y="1564" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall left0002" x="607" y="1564" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall right0000" x="1214" y="1564" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall right0001" x="1821" y="1564" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall right0002" x="0" y="2346" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall up0000" x="607" y="2346" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall up0001" x="1214" y="2346" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
-<SubTexture name="ayko-fall up0002" x="1821" y="2346" width="607" height="782" frameX="0" frameY="0" frameWidth="607" frameHeight="782" />
+<TextureAtlas imagePath="ayko-fall.png"><SubTexture name="ayko-fall down0000" x="0" y="0" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall down0001" x="789" y="0" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall down0002" x="1578" y="0" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall idle0000" x="2367" y="0" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall idle0001" x="0" y="833" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall idle0002" x="789" y="833" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall idle0003" x="1578" y="833" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall left0000" x="2367" y="833" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall left0001" x="0" y="1666" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall left0002" x="789" y="1666" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall right0000" x="1578" y="1666" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall right0001" x="2367" y="1666" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall right0002" x="0" y="2499" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall up0000" x="789" y="2499" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall up0001" x="1578" y="2499" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
+<SubTexture name="ayko-fall up0002" x="2367" y="2499" width="789" height="833" frameX="0" frameY="0" frameWidth="789" frameHeight="833" />
 </TextureAtlas>
