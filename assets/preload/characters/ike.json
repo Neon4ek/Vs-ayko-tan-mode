@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				46,
-				236
+				10,
+				240
 			],
 			"loop": false,
 			"fps": 10,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-6,
-				243
+				0,
+				240
 			],
 			"loop": false,
 			"fps": 10,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				-22,
-				246
+				0,
+				240
 			],
 			"loop": false,
 			"fps": 10,
@@ -47,7 +47,7 @@
 		{
 			"offsets": [
 				0,
-				241
+				240
 			],
 			"loop": false,
 			"fps": 10,
@@ -71,8 +71,8 @@
 	],
 	"camera_position": [
 		80,
-		-40
+		-160
 	],
 	"sing_duration": 6.1,
-	"scale": 0.7
+	"scale": 0.9
 }
