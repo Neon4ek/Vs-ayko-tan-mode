@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				240
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "idle",
+			"loop": true,
+			"name": "IkeAn idle"
+		},
+		{
+			"offsets": [
+				0,
+				240
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "IkeAn left"
+		},
+		{
+			"offsets": [
+				0,
+				240
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singUP",
+			"loop": false,
+			"name": "IkeAn up"
+		},
+		{
+			"offsets": [
+				0,
+				240
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "IkeAn right"
+		},
+		{
+			"offsets": [
+				0,
+				240
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "IkeAn down"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/IkeAn",
+	"position": [
+		-210,
+		40
+	],
+	"healthicon": "postguys",
+	"flip_x": false,
+	"healthbar_colors": [
+		80,
+		60,
+		255
+	],
+	"camera_position": [
+		80,
+		-160
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}
