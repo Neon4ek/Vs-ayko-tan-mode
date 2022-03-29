@@ -2,102 +2,14 @@
 	"animations": [
 		{
 			"offsets": [
-				4,
-				-1
+				0,
+				0
 			],
 			"loop": true,
 			"fps": 10,
 			"anim": "idle",
 			"indices": [],
 			"name": "duo idle"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "singUP",
-			"fps": 10,
-			"name": "duo up",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				1,
-				-1
-			],
-			"anim": "singDOWN",
-			"fps": 10,
-			"name": "duo down",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				5,
-				5
-			],
-			"anim": "singLEFT",
-			"fps": 10,
-			"name": "duo left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				16,
-				-1
-			],
-			"anim": "singRIGHT-alt",
-			"fps": 10,
-			"name": "duo alt-rigth",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				10,
-				-2
-			],
-			"anim": "singDOWN-alt",
-			"fps": 10,
-			"name": "duo alt-down",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				22,
-				4
-			],
-			"anim": "singLEFT-alt",
-			"fps": 10,
-			"name": "duo alt-left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				7,
-				2
-			],
-			"anim": "singUP-alt",
-			"fps": 10,
-			"name": "duo alt-up",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-12,
-				-1
-			],
-			"anim": "singRIGHT",
-			"fps": 10,
-			"name": "duo right",
-			"indices": []
 		},
 		{
 			"offsets": [
@@ -109,25 +21,113 @@
 			"anim": "clash",
 			"indices": [],
 			"name": "duo clash"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 10,
+			"name": "duo alt-right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "duo up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "duo down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "duo left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "duo alt-down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "duo alt-left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "duo alt-up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "duo right"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/duo",
 	"position": [
 		-380,
-		-280
+		-240
 	],
 	"healthicon": "postguys",
 	"flip_x": false,
 	"healthbar_colors": [
-		196,
-		94,
-		174
+		62,
+		37,
+		239
 	],
 	"camera_position": [
 		0,
 		220
 	],
 	"sing_duration": 4,
-	"scale": 0.8
+	"scale": 0.9
 }
