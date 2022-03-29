@@ -1,17 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="Ike.png"><SubTexture name="Ike dwon0000" x="0" y="0" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike dwon0001" x="833" y="0" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike idle0000" x="1666" y="0" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike idle0001" x="0" y="977" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike idle0002" x="833" y="977" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike idle0003" x="1666" y="977" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike left0000" x="0" y="1954" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike left0001" x="833" y="1954" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike left0002" x="1666" y="1954" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike right0000" x="0" y="2931" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike right0001" x="833" y="2931" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike right0002" x="1666" y="2931" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike up0000" x="0" y="3908" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike up0001" x="833" y="3908" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
-<SubTexture name="Ike up0002" x="1666" y="3908" width="833" height="977" frameX="0" frameY="0" frameWidth="833" frameHeight="977" />
+<TextureAtlas imagePath="Ike.png"><SubTexture name="Ike dwon0000" x="0" y="0" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike dwon0001" x="666" y="0" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike dwon0002" x="1332" y="0" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike idle0000" x="1998" y="0" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike idle0001" x="0" y="928" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike idle0002" x="666" y="928" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike idle0003" x="1332" y="928" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike left0000" x="1998" y="928" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike left0001" x="0" y="1856" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike left0002" x="666" y="1856" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike right0000" x="1332" y="1856" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike right0001" x="1998" y="1856" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike right0002" x="0" y="2784" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike up0000" x="666" y="2784" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike up0001" x="1332" y="2784" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="Ike up0002" x="1998" y="2784" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
 </TextureAtlas>
