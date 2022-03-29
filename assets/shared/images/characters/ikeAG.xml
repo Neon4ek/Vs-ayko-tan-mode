@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ikeAG.png"><SubTexture name="ikeAG down0000" x="0" y="0" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG down0001" x="598" y="0" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG down0002" x="1196" y="0" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG idle0000" x="1794" y="0" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG idle0001" x="0" y="914" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG idle0002" x="598" y="914" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG idle0003" x="1196" y="914" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG left0000" x="1794" y="914" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG left0001" x="0" y="1828" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG left0002" x="598" y="1828" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG right0000" x="1196" y="1828" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG right0001" x="1794" y="1828" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG right0002" x="0" y="2742" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG up0000" x="598" y="2742" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG up0001" x="1196" y="2742" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ikeAG up0002" x="1794" y="2742" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+</TextureAtlas>
