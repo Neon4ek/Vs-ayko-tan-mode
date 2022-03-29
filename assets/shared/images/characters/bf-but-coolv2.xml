@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bf-but-cool.png"><SubTexture name="bf-but-cool down0000" x="0" y="0" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool down0001" x="612" y="0" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool down0002" x="1224" y="0" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool idle0000" x="1836" y="0" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool idle0001" x="0" y="732" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool idle0002" x="612" y="732" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool idle0003" x="1224" y="732" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool idle0004" x="1836" y="732" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool left0000" x="0" y="1464" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool left0001" x="612" y="1464" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool left0002" x="1224" y="1464" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool right0000" x="1836" y="1464" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool right0001" x="0" y="2196" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool right0002" x="612" y="2196" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool up0000" x="1224" y="2196" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool up0001" x="1836" y="2196" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+<SubTexture name="bf-but-cool up0002" x="0" y="2928" width="612" height="732" frameX="0" frameY="0" frameWidth="612" frameHeight="732" />
+</TextureAtlas>
