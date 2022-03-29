@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
 				0,
 				240
 			],
-			"loop": true,
-			"fps": 15,
 			"anim": "idle",
-			"indices": [],
-			"name": "Ike idle"
+			"fps": 15,
+			"name": "Ike idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				116,
+				65,
 				236
 			],
-			"loop": false,
-			"fps": 15,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Ike left"
+			"fps": 15,
+			"name": "Ike left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-6,
-				323
+				206
 			],
-			"loop": false,
-			"fps": 15,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Ike up"
+			"fps": 15,
+			"name": "Ike up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-102,
+				-99,
 				246
 			],
-			"loop": false,
-			"fps": 15,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Ike right"
+			"fps": 15,
+			"name": "Ike right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				182
 			],
-			"loop": false,
-			"fps": 15,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Ike dwon"
+			"fps": 15,
+			"name": "Ike dwon",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -62,12 +62,12 @@
 		-210,
 		10
 	],
-	"healthicon": "ike",
+	"healthicon": "ek",
 	"flip_x": false,
 	"healthbar_colors": [
-		80,
-		60,
-		255
+		6,
+		5,
+		15
 	],
 	"camera_position": [
 		-110,
