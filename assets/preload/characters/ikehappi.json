@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				240
+			],
+			"anim": "idle",
+			"fps": 10,
+			"name": "ike-happi idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				240
+			],
+			"anim": "singLEFT",
+			"fps": 10,
+			"name": "ike-happi left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				240
+			],
+			"anim": "singUP",
+			"fps": 10,
+			"name": "ike-happi up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				240
+			],
+			"anim": "singRIGHT",
+			"fps": 10,
+			"name": "ike-happi right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				240
+			],
+			"anim": "singDOWN",
+			"fps": 10,
+			"name": "ike-happi down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ike-happi",
+	"position": [
+		0,
+		30
+	],
+	"healthicon": "ikeH",
+	"flip_x": false,
+	"healthbar_colors": [
+		62,
+		37,
+		255
+	],
+	"camera_position": [
+		-90,
+		-160
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}
