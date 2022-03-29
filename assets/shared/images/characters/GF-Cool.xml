@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="GF-Cool.png"><SubTexture name="GF-Cool down0000" x="0" y="0" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool down0001" x="800" y="0" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool down0002" x="1600" y="0" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool idle0000" x="2400" y="0" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool idle0001" x="0" y="732" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool idle0002" x="800" y="732" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool idle0003" x="1600" y="732" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool left0000" x="2400" y="732" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool left0001" x="0" y="1464" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool left0002" x="800" y="1464" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool right0000" x="1600" y="1464" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool right0001" x="2400" y="1464" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool right0002" x="0" y="2196" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool up0000" x="800" y="2196" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool up0001" x="1600" y="2196" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+<SubTexture name="GF-Cool up0002" x="2400" y="2196" width="800" height="732" frameX="0" frameY="0" frameWidth="800" frameHeight="732" />
+</TextureAtlas>
