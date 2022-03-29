@@ -1,25 +1,17 @@
 {
 	"song": {
-		"speed": 2.4,
-		"stage": "home_but_im_lazy_to_move_charecters",
+		"speed": 2.7,
+		"stage": "home",
 		"player1": "bf-but-cool",
 		"player2": "duo",
-		"player3": "nogf",
+		"player3": "ayko-tan",
 		"notes": [
 			{
 				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [
-					[
-						0,
-						-1,
-						"Add Camera Zoom",
-						"0.300",
-						""
-					]
-				],
+				"sectionNotes": [],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
@@ -203,7 +195,15 @@
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						25600,
+						-1,
+						"Change Character",
+						"1",
+						"ikeAn"
+					]
+				],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
@@ -243,7 +243,15 @@
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						32000,
+						-1,
+						"Change Character",
+						"1",
+						"duo"
+					]
+				],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
@@ -608,14 +616,14 @@
 						70400,
 						-1,
 						"Add Camera Zoom",
-						"0.080",
+						"0.090",
 						""
 					],
 					[
 						70800,
 						-1,
 						"Add Camera Zoom",
-						"0.080",
+						"0.090",
 						""
 					]
 				],
@@ -633,14 +641,14 @@
 						72000,
 						-1,
 						"Add Camera Zoom",
-						"0.080",
+						"0.090",
 						""
 					],
 					[
 						72400,
 						-1,
 						"Add Camera Zoom",
-						"0.080",
+						"0.090",
 						""
 					]
 				],
@@ -658,14 +666,14 @@
 						73600,
 						-1,
 						"Add Camera Zoom",
-						"0.080",
+						"0.090",
 						""
 					],
 					[
 						74000,
 						-1,
 						"Add Camera Zoom",
-						"0.080",
+						"0.090",
 						""
 					]
 				],
@@ -683,15 +691,26 @@
 						75200,
 						-1,
 						"Add Camera Zoom",
-						"0.080",
+						"0.090",
 						""
-					],
+					]
+				],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
 					[
-						75600,
+						76800,
 						-1,
-						"Add Camera Zoom",
-						"0.080",
-						""
+						"Change Character",
+						"1",
+						"ikeAn"
 					]
 				],
 				"bpm": 0,
@@ -813,17 +832,15 @@
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"gfSection": false,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						96000,
+						-1,
+						"Change Character",
+						"1",
+						"duo"
+					]
+				],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
@@ -1183,6 +1200,56 @@
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			}
 		],
 		"splashSkin": "noteSplashes",
@@ -1190,6 +1257,6 @@
 		"bpm": 150,
 		"arrowSkin": "",
 		"needsVoices": true,
-		"song": "sussy-dreamin"
+		"song": "nightmare"
 	}
 }
