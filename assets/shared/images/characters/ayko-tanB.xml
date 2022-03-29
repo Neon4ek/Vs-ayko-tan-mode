@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ayko-tanB.png"><SubTexture name="ayko-tanB down0000" x="0" y="0" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB down0001" x="616" y="0" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB down0002" x="1232" y="0" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB idle0000" x="1848" y="0" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB idle0001" x="0" y="949" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB idle0002" x="616" y="949" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB idle0003" x="1232" y="949" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB left0000" x="1848" y="949" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB left0001" x="0" y="1898" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB left0002" x="616" y="1898" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB right0000" x="1232" y="1898" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB right0001" x="1848" y="1898" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB right0002" x="0" y="2847" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB up0000" x="616" y="2847" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB up0001" x="1232" y="2847" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+<SubTexture name="ayko-tanB up0002" x="1848" y="2847" width="616" height="949" frameX="0" frameY="0" frameWidth="616" frameHeight="949" />
+</TextureAtlas>
