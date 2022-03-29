@@ -10,7 +10,7 @@
 			]
 		],
 		[
-			"no-villains",
+			"no-mail",
 			"ike",
 			[
 				40,
@@ -27,6 +27,16 @@
 				255
 			]
 		],
+		[
+			"first_impression",
+			"aykotan",
+			[
+				66,
+				73,
+				255
+			]
+		],
+
 		[
 			"banquet_be_nuit",
 			"mm",
@@ -45,6 +55,7 @@
 				255
 			]
 		]
+		
 	],
 	"hideFreeplay": false,
 	"weekBackground": "stage",
