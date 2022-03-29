@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 10,
+			"name": "ayko-tanB idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ayko-tanB down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "ayko-tanB up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "ayko-tanB right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "ayko-tanB left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ayko-tanB",
+	"position": [
+		0,
+		-170
+	],
+	"healthicon": "ATBS",
+	"flip_x": false,
+	"healthbar_colors": [
+		197,
+		27,
+		27
+	],
+	"camera_position": [
+		-70,
+		20
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}
