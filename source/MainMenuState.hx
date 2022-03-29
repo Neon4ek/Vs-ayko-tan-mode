@@ -20,6 +20,9 @@ import lime.app.Application;
 import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
+import flixel.addons.display.FlxBackdrop;
+import flixel.addons.display.FlxGridOverlay;
+
 
 using StringTools;
 
@@ -43,6 +46,7 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+	var backdrops:FlxBackdrop;
 
 	override function create()
 	{
@@ -80,6 +84,11 @@ class MainMenuState extends MusicBeatState
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
 		add(camFollowPos);
+
+		backdrops = new FlxBackdrop(Paths.image('grid'), 0.2, 0.2, true, true);
+		backdrops.alpha = 0.3;
+		backdrops.x -= 35;
+		add(backdrops);
 
 		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
 		magenta.scrollFactor.set(0, yScroll);
@@ -166,6 +175,10 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		backdrops.x -= .25*(elapsed/(1/120));
+		backdrops.y += .25*(elapsed/(1/120));
+		
+	
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
