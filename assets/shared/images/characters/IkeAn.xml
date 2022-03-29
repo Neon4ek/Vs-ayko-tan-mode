@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="IkeAn.png"><SubTexture name="IkeAn down0000" x="0" y="0" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn down0001" x="666" y="0" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn down0002" x="1332" y="0" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn idle0000" x="1998" y="0" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn idle0001" x="0" y="928" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn idle0002" x="666" y="928" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn idle0003" x="1332" y="928" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn left0000" x="1998" y="928" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn left0001" x="0" y="1856" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn left0002" x="666" y="1856" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn right0000" x="1332" y="1856" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn right0001" x="1998" y="1856" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn right0002" x="0" y="2784" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn up0000" x="666" y="2784" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn up0001" x="1332" y="2784" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+<SubTexture name="IkeAn up0002" x="1998" y="2784" width="666" height="928" frameX="0" frameY="0" frameWidth="666" frameHeight="928" />
+</TextureAtlas>
