@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ike-happi.png"><SubTexture name="ike-happi down0000" x="0" y="0" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi down0001" x="598" y="0" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi down0002" x="1196" y="0" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi idle0000" x="1794" y="0" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi idle0001" x="0" y="914" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi idle0002" x="598" y="914" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi idle0003" x="1196" y="914" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi idle0004" x="1794" y="914" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi left0000" x="0" y="1828" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi left0001" x="598" y="1828" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi left0002" x="1196" y="1828" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi right0000" x="1794" y="1828" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi right0001" x="0" y="2742" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi right0002" x="598" y="2742" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi up0000" x="1196" y="2742" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi up0001" x="1794" y="2742" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+<SubTexture name="ike-happi up0002" x="0" y="3656" width="598" height="914" frameX="0" frameY="0" frameWidth="598" frameHeight="914" />
+</TextureAtlas>
