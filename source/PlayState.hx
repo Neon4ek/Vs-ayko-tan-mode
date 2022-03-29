@@ -27,6 +27,7 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
 import flixel.math.FlxPoint;
 import flixel.math.FlxRect;
+import flixel.math.FlxRandom;
 import flixel.system.FlxSound;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
@@ -189,7 +190,7 @@ class PlayState extends MusicBeatState
 	public var camGame:FlxCamera;
 	public var camOther:FlxCamera;
 	public var cameraSpeed:Float = 1;
-
+	
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
 
@@ -247,6 +248,17 @@ class PlayState extends MusicBeatState
 
 	public var skyBG:FlxSprite;
 	private var allowSway:Bool = true;
+	public var whiteScreen:FlxSprite;
+	//Говно для титров в уровне Нахуй
+	//public var credit_Lucid:FlxSprite;
+	//public var credit_sleeprunnin:FlxSprite;
+	//public var credit_nightmare:FlxSprite;
+	//public var credit_jBF:FlxSprite;
+	//public var credit_firstImpression:FlxSprite;
+	//public var credit_postal:FlxSprite;
+	//public var credit_banquet_be_nuit:FlxSprite;
+	//public var credit_no_villains:FlxSprite;
+	//public var credit_cheating:FlxSprite;
 
 	#if desktop
 	// Discord RPC variables
@@ -273,6 +285,9 @@ class PlayState extends MusicBeatState
 	
 	// Less laggy controls
 	private var keysArray:Array<Dynamic>;
+
+	//group of Shit
+	public var ikePoop:FlxSpriteGroup;
 
 	override public function create()
 	{
@@ -414,36 +429,26 @@ class PlayState extends MusicBeatState
 
 				skyBG = new BGSprite('sky', 750, -150, 1.1, 1.1);
 				skyBG.setGraphicSize(Std.int(skyBG.width * 2.6));
+				skyBG.antialiasing = ClientPrefs.globalAntialiasing;
 				add(skyBG);
 			
 				var hobg:BGSprite = new BGSprite('he_back', -600, -300, 0.9, 0.9);
 				hobg.updateHitbox();
-				hobg.antialiasing = true;
-				add(hobg);
-
-			case 'home_but_im_lazy_to_move_charecters': 
-
-				skyBG = new BGSprite('sky', 750, -150, 1.1, 1.1);
-				skyBG.setGraphicSize(Std.int(skyBG.width * 2.6));
-				add(skyBG);
-			
-				var hobg:BGSprite = new BGSprite('he_back', -600, -300, 0.9, 0.9);
-				hobg.updateHitbox();
-				hobg.antialiasing = true;
+				hobg.antialiasing = ClientPrefs.globalAntialiasing;
 				add(hobg);
 
 			case 'q': 
 
 				var hobg:BGSprite = new BGSprite('q', -950, 0, 0.9, 0.9);
 				hobg.updateHitbox();
-				hobg.antialiasing = true;
+				hobg.antialiasing = ClientPrefs.globalAntialiasing;
 				add(hobg);
 
 			case 'outside':
 
 				var hobg:BGSprite = new BGSprite('outside', -600, -300, 0.9, 0.9);
 				hobg.updateHitbox();
-				hobg.antialiasing = true;
+				hobg.antialiasing = ClientPrefs.globalAntialiasing;
 				add(hobg);
 
 			
@@ -453,7 +458,7 @@ class PlayState extends MusicBeatState
 				defaultCamZoom = 0.85;
 				curStage = 'pricol';
 				var bg:FlxSprite = new FlxSprite(200, 100).loadGraphic(Paths.image('pricol'));
-				bg.antialiasing = true;
+				bg.antialiasing = ClientPrefs.globalAntialiasing;
 				bg.setGraphicSize(Std.int(bg.width * 1.6));
 				bg.scrollFactor.set(0.6, 0.6);
 				bg.active = true;
@@ -465,11 +470,75 @@ class PlayState extends MusicBeatState
 				testshader.waveFrequency = 5;
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
-				curbg = bg;
-					
+				curbg = bg;	
 				
-				
+            case 'scary-power':
+				var scary:BGSprite = new BGSprite('halloween_bg_low', -600, -300, 0.9, 0.9);
+				scary.updateHitbox();
+				scary.antialiasing = ClientPrefs.globalAntialiasing;
+				add(scary);
 		}
+
+		//credit_Lucid = new FlxSprite().loadGraphic(Paths.image('creditstaff/lucid-dreams'));
+		//credit_Lucid.updateHitbox();
+		//credit_Lucid.setPosition(-credit_Lucid.width, 200);
+		//add(credit_Lucid);
+
+		//credit_sleeprunnin = new FlxSprite().loadGraphic(Paths.image('creditstaff/sleeprunnin'));
+		//credit_sleeprunnin.updateHitbox();
+		//credit_sleeprunnin.setPosition(-credit_sleeprunnin.width, 200);
+		//add(credit_sleeprunnin);
+				
+		//credit_nightmare = new FlxSprite().loadGraphic(Paths.image('creditstaff/nightmare'));
+		//credit_nightmare.updateHitbox();
+		//credit_nightmare.setPosition(-credit_nightmare.width, 200);
+		//add(credit_nightmare);
+
+		//credit_jBF = new FlxSprite().loadGraphic(Paths.image('creditstaff/j-bf'));
+		//credit_jBF.updateHitbox();
+		//credit_jBF.setPosition(-credit_jBF.width, 200);
+	//	add(credit_jBF);
+
+		//credit_firstImpression = new FlxSprite().loadGraphic(Paths.image('creditstaff/first_impression'));
+		//credit_firstImpression.updateHitbox();
+		//credit_firstImpression.setPosition(-credit_firstImpression.width, 200);
+		//add(credit_firstImpression);
+
+		//credit_postal = new FlxSprite().loadGraphic(Paths.image('creditstaff/postal'));
+		//credit_postal.updateHitbox();
+		//credit_postal.setPosition(-credit_postal.width, 200);
+		//add(credit_postal);
+
+		//credit_no_villains = new FlxSprite().loadGraphic(Paths.image('creditstaff/no-villains'));
+		//credit_no_villains.updateHitbox();
+		//credit_no_villains.setPosition(-credit_no_villains.width, 200);
+		//add(credit_no_villains);
+		
+		//credit_banquet_be_nuit = new FlxSprite().loadGraphic(Paths.image('creditstaff/banquet_be_nuit'));
+		//credit_banquet_be_nuit.updateHitbox();
+		//credit_banquet_be_nuit.setPosition(-credit_banquet_be_nuit.width, 200);
+		//add(credit_banquet_be_nuit);
+
+		//credit_cheating = new FlxSprite().loadGraphic(Paths.image('creditstaff/cheating'));
+		//credit_cheating.updateHitbox();
+		//credit_cheating.setPosition(-credit_cheating.width, 200);
+		//add(credit_cheating);
+
+		ikePoop = new FlxSpriteGroup();
+		ikePoop.cameras = [camHUD];
+
+		var kartonka = new FlxSprite().loadGraphic(Paths.image("Pogchamp"));
+		kartonka.screenCenter();
+		ikePoop.add(kartonka);
+
+		var fUCKING_IKE = new FlxText(870, 410, 0, "OMG IT'S FUCKING IKE", 25);
+		fUCKING_IKE.setFormat(Paths.font("Cavorting.otf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		fUCKING_IKE.scrollFactor.set();
+		ikePoop.add(fUCKING_IKE);
+
+		ikePoop.alpha = 0;
+		add(ikePoop);
+		
 
 		if(isPixelStage) {
 			introSoundsSuffix = '-pixel';
@@ -802,7 +871,7 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
+		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "skill issue", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
@@ -825,6 +894,16 @@ class PlayState extends MusicBeatState
 		timeBarBG.cameras = [camHUD];
 		timeTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
+		//Пиздец ну вы это видете?
+		//credit_Lucid.cameras = [camHUD];
+		//credit_sleeprunnin.cameras = [camHUD];
+		//credit_nightmare.cameras = [camHUD];
+		//credit_jBF.cameras = [camHUD];
+		//credit_firstImpression.cameras = [camHUD];
+		//credit_postal.cameras = [camHUD];
+		//credit_no_villains.cameras = [camHUD];
+		//credit_banquet_be_nuit.cameras = [camHUD];
+		//credit_cheating.cameras = [camHUD];
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -946,6 +1025,7 @@ class PlayState extends MusicBeatState
 
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
 		callOnLuas('onCreatePost', []);
+		
 		
 		super.create();
 	}
@@ -1267,6 +1347,30 @@ class PlayState extends MusicBeatState
 
 			var swagCounter:Int = 0;
 
+			var popup:FlxSprite = new FlxSprite().loadGraphic(Paths.image('creditstaff/${SONG.song.toLowerCase()}'));
+			popup.x -= popup.width;
+			popup.y += 180;
+			popup.antialiasing= ClientPrefs.globalAntialiasing;
+			popup.scrollFactor.set();
+			popup.cameras = [camHUD];
+			FlxTween.tween(popup, {x: 0}, 1, {
+				ease: FlxEase.quartInOut,
+				startDelay: 1,
+				onComplete: function(twn:FlxTween)
+				{
+					FlxTween.tween(popup, {x: -popup.width}, 1, {
+					ease: FlxEase.quartInOut,
+					startDelay: 1.75,
+					onComplete: function(twn:FlxTween)
+					{
+						popup.destroy();
+					}
+				});
+			}
+			});
+
+			add(popup);
+
 			startTimer = new FlxTimer().start(Conductor.crochet / 1000, function(tmr:FlxTimer)
 			{
 				if (tmr.loopsLeft % gfSpeed == 0 && !gf.stunned && gf.animation.curAnim.name != null && !gf.animation.curAnim.name.startsWith("sing"))
@@ -1427,8 +1531,7 @@ class PlayState extends MusicBeatState
 
 		// Song duration in a float, useful for the time left feature
 		songLength = FlxG.sound.music.length;
-		FlxTween.tween(timeBar, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
-		FlxTween.tween(timeTxt, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
+	
 		
 		#if desktop
 		// Updating Discord Rich Presence (with Time Left)
@@ -1792,14 +1895,7 @@ class PlayState extends MusicBeatState
 	}
 	
 	override public function onFocusLost():Void
-	{
-		if (dad != null) {
-            if (!Math.isNaN(dadY) && dad.curCharacter == 'ayko-tan-assets' ) {
-                dad.y = dadY + ((Math.sin((Conductor.songPosition / 16000) * (180 / Math.PI))) * 5);
-            } else
-                dadY = dad.y;
-        }
-		
+	{	
 		#if desktop
 		if (health > 0 && !paused)
 		{
@@ -1845,13 +1941,107 @@ class PlayState extends MusicBeatState
 
 		callOnLuas('onUpdate', [elapsed]);
 
+		
+		
+		
+	
+
+		//Блять это полный пиздец, но я по другому не умею(
+
+		//if (curSong == 'lucid-dreams' && curBeat >= 1 && curBeat <= 5)
+		//{
+		//	FlxTween.tween(credit_Lucid, {x: 0}, 0.5, {ease: FlxEase.sineOut});
+		//}
+		//else
+		//{
+		//	FlxTween.tween(credit_Lucid, {x: -credit_Lucid.width}, 0.5, {ease: FlxEase.sineInOut});
+		//}	
+
+
+		//if (curSong == 'sleeprunnin' && curBeat >= 2 && curBeat <= 5)
+		//{
+		//	FlxTween.tween(credit_sleeprunnin, {x: 0}, 1, {ease: FlxEase.sineOut});
+		//}
+		//else
+		//{
+		//	FlxTween.tween(credit_sleeprunnin, {x: -credit_sleeprunnin.width}, 0.5, {ease: FlxEase.sineInOut});
+		//}
+
+
+		//if (curSong == 'j-bf' && curBeat >= 1 && curBeat <= 4)
+		//{
+		//	FlxTween.tween(credit_jBF, {x: 0}, 1, {ease: FlxEase.sineOut});
+		//}
+		//else
+		//{
+		//	FlxTween.tween(credit_jBF, {x: -credit_jBF.width}, 1, {ease: FlxEase.sineInOut});
+		//}	
+
+
+		//if (curSong == 'nightmare' && curBeat >= 1 && curBeat <= 5)
+		//{
+		//	FlxTween.tween(credit_nightmare, {x: 0}, 0.5, {ease: FlxEase.sineOut});
+		//}
+		//else
+		//{
+		//	FlxTween.tween(credit_nightmare, {x: -credit_nightmare.width}, 0.5, {ease: FlxEase.sineInOut});
+		//}	
+
+		//if (curSong == 'first_impression' && curBeat >= 1 && curBeat <= 5)
+		//{
+		//	FlxTween.tween(credit_firstImpression, {x: 0}, 1, {ease: FlxEase.sineOut});
+		//}
+		//else
+		//{
+		//	FlxTween.tween(credit_firstImpression, {x: -credit_firstImpression.width}, 0.5, {ease: FlxEase.sineInOut});
+		//}	
+		
+		
+		//if (curSong == 'postal' && curBeat >= 1 && curBeat <= 5)
+		//{
+		//	FlxTween.tween(credit_postal, {x: 0}, 1, {ease: FlxEase.sineOut});
+		//}
+		//else
+		//{
+		//	FlxTween.tween(credit_postal, {x: -credit_postal.width}, 0.5, {ease: FlxEase.sineInOut});
+		//}	
+
+		
+		//if (curSong == 'banquet_be_nuit' && curBeat >= 1 && curBeat <= 5)
+		//{
+		//	FlxTween.tween(credit_banquet_be_nuit, {x: 0}, 1, {ease: FlxEase.sineOut});
+		//}
+		//else
+		//{
+		//	FlxTween.tween(credit_banquet_be_nuit, {x: -credit_banquet_be_nuit.width}, 0.5, {ease: FlxEase.sineInOut});
+		//}	
+	
+		
+		//if (curSong == 'No-Mail' && curBeat >= 1 && curBeat <= 5)
+		//{
+		//	FlxTween.tween(credit_no_villains, {x: 0}, 1, {ease: FlxEase.sineOut});
+		//}
+		//else
+		//{
+		//	FlxTween.tween(credit_no_villains, {x: -credit_no_villains.width}, 1, {ease: FlxEase.sineInOut});
+		//}	
+
+		//if (curSong == 'Cheating' && curBeat >= 1 && curBeat <= 4)
+		//{
+		//	FlxTween.tween(credit_cheating, {x: 0}, 1, {ease: FlxEase.sineOut});
+		//}
+		//else
+		//{
+		//	FlxTween.tween(credit_cheating, {x: -credit_cheating.width}, 0.5, {ease: FlxEase.sineInOut});
+		//}	
+	
 		//if(sky != null)
 		//	{
 		//		sky.angle += elapsed * 3.5;
 		//	}
 		//Зачем я это сделал?
 
-	
+		
 		//Кто сможет это сделать анимацию левитацию облаков вверх и вниз с помощью кода тот гений и того добавлю в видос(Еще меня научите пж)
 		//if(curStage == 'home' &&  sky.y <= -100)
 		//	{
@@ -1873,6 +2063,35 @@ class PlayState extends MusicBeatState
 			//		phillyCityLightsEvent.add(light);
 			//	}
 
+		if (curSong == 'first_impression')
+		{
+			if (curStep >= 863 && curStep <= 864 ) {
+				dad.y -= 300;
+				dad.x -= 500;
+			}
+			if (curStep == 864) {
+				FlxG.camera.flash(FlxColor.WHITE, 2);
+				FlxTween.tween(dad, {x: 0, y: 160}, 1, {ease: FlxEase.quadInOut});
+			}
+			if (curStep >= 1182 && curStep <= 1183) {
+				dad.y -= 500;
+				dad.x -= 500;
+			}
+
+			if (curStep == 1183) {
+				FlxG.camera.flash(FlxColor.WHITE, 1);
+				FlxTween.tween(dad, {x: 50, y: -90}, 1, {ease: FlxEase.quadInOut});
+			}
+		}
+
+		if (curSong == 'nightmare')
+		{
+			gf.visible = false;
+			if ((curStep >= 256 && curStep <= 320) || (curStep >= 768 && curStep <= 960) || (curStep >= 1040 && curStep <= 1350))
+			{
+				gf.visible = true;
+			}
+		}
 
 		switch (curStage)
 		{
@@ -2068,6 +2287,20 @@ class PlayState extends MusicBeatState
 		iconP2.updateHitbox();
 
 		var iconOffset:Int = 26;
+		
+		if(iconP1.y < 570)
+			iconP1.y = CoolUtil.coolLerp(iconP1.y, 570, Conductor.crochet / 1000 / cameraBeatSpeed);
+		if(iconP2.y > 570)
+			iconP2.y = CoolUtil.coolLerp(iconP2.y, 570, Conductor.crochet / 1000 / cameraBeatSpeed);
+
+		if(iconP1.y > 570)
+			iconP1.y = 570;
+		if(iconP2.y < 570)
+			iconP2.y = 570;
+
+
+		iconP1.updateHitbox();
+		iconP2.updateHitbox();
 
 		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
 		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
@@ -3150,7 +3383,7 @@ class PlayState extends MusicBeatState
 		rating.acceleration.y = 550;
 		rating.velocity.y -= FlxG.random.int(140, 175);
 		rating.velocity.x -= FlxG.random.int(0, 10);
-		rating.visible = !ClientPrefs.hideHud;
+		rating.visible = !ClientPrefs.hudeShitHide;
 		rating.x += ClientPrefs.comboOffset[0];
 		rating.y -= ClientPrefs.comboOffset[1];
 
@@ -3161,7 +3394,7 @@ class PlayState extends MusicBeatState
 		comboSpr.x = coolText.x;
 		comboSpr.acceleration.y = 600;
 		comboSpr.velocity.y -= 150;
-		comboSpr.visible = !ClientPrefs.hideHud;
+		comboSpr.visible = !ClientPrefs.hudeShitHide;
 		comboSpr.x += ClientPrefs.comboOffset[0];
 		comboSpr.y -= ClientPrefs.comboOffset[1];
 
@@ -3220,7 +3453,7 @@ class PlayState extends MusicBeatState
 			numScore.acceleration.y = FlxG.random.int(200, 300);
 			numScore.velocity.y -= FlxG.random.int(140, 160);
 			numScore.velocity.x = FlxG.random.float(-5, 5);
-			numScore.visible = !ClientPrefs.hideHud;
+			numScore.visible = !ClientPrefs.hudeShitHide;
 
 			if (combo >= 10 || combo == 0)
 				insert(members.indexOf(strumLineNotes), numScore);
@@ -3871,12 +4104,25 @@ class PlayState extends MusicBeatState
 		lastStepHit = curStep;
 		setOnLuas('curStep', curStep);
 		callOnLuas('onStepHit', []);
+
+		var ikeRandom:Int = FlxG.random.int(0, 3);
+
+		if(curSong == "postal"){
+			if(curStep == 5 && ikeRandom == 3){
+				FlxTween.tween(ikePoop, {alpha: 0.8}, .5, {ease: FlxEase.quadInOut});
+			}
+			else if(curStep == 35){
+				FlxTween.tween(ikePoop, {alpha: 0}, 1, {ease: FlxEase.quadInOut});
+			}
+		}
 	}
 
 	var lightningStrikeBeat:Int = 0;
 	var lightningOffset:Int = 8;
 
 	var lastBeatHit:Int = -1;
+
+	var cameraBeatSpeed:Int = 4;
 	override function beatHit()
 	{
 		super.beatHit();
@@ -3884,6 +4130,12 @@ class PlayState extends MusicBeatState
 		if(lastBeatHit >= curBeat) {
 			//trace('BEAT HIT: ' + curBeat + ', LAST HIT: ' + lastBeatHit);
 			return;
+		}
+
+		if(curBeat % cameraBeatSpeed == 0)
+		{
+			iconP1.y -= 30;
+			iconP2.y += 30;
 		}
 
 		if (generatedMusic)
@@ -3930,12 +4182,7 @@ class PlayState extends MusicBeatState
 			if (curBeat % 8 == 0) FlxTween.tween(skyBG, {y: -150}, Conductor.crochet * 5.9 / 1000, {ease: FlxEase.sineInOut});
 			if (curBeat % 8 == 4) FlxTween.tween(skyBG, {y: -300}, Conductor.crochet * 5.9 / 1000, {ease: FlxEase.sineInOut});
 		}
-		
-		if (curStage.toLowerCase() =='home_but_im_lazy_to_move_charecters' && allowSway)
-		{
-			if (curBeat % 8 == 0) FlxTween.tween(skyBG, {y: -150}, Conductor.crochet * 5.9 / 1000, {ease: FlxEase.sineInOut});
-			if (curBeat % 8 == 4) FlxTween.tween(skyBG, {y: -300}, Conductor.crochet * 5.9 / 1000, {ease: FlxEase.sineInOut});
-		}
+
 
 		if (curBeat % gfSpeed == 0 && !gf.stunned && gf.animation.curAnim.name != null && !gf.animation.curAnim.name.startsWith("sing"))
 		{
