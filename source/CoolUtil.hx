@@ -125,4 +125,13 @@ class CoolUtil
 		FlxG.openURL(site);
 		#end
 	}
+
+	public static function camLerpShit(a:Float):Float
+		{
+			return FlxG.elapsed / 0.016666666666666666 * a;
+		}
+		public static function coolLerp(a:Float, b:Float, c:Float):Float
+		{
+			return a + CoolUtil.camLerpShit(c) * (b - a);
+		}
 }
