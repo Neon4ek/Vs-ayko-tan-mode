@@ -56,7 +56,7 @@ class TitleState extends MusicBeatState
 	var credGroup:FlxGroup;
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
-	var logoSpr:FlxSprite;
+	var ikeONS:FlxSprite;
 
 	var curWacky:Array<String> = [];
 
@@ -240,19 +240,10 @@ class TitleState extends MusicBeatState
 
 		
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('bgShit'));
-		// bg.antialiasing = true;
-		// bg.setGraphicSize(Std.int(bg.width * 0.6));
-		// bg.updateHitbox();
+		bg.antialiasing = true;
 		add(bg);
 		
-		// bg.antialiasing = ClientPrefs.globalAntialiasing;
-		// bg.setGraphicSize(Std.int(bg.width * 0.6));
-		// bg.updateHitbox();
-		
-
-		
-		
-		add(bg);
+	
 
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
@@ -260,15 +251,23 @@ class TitleState extends MusicBeatState
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
+		logoBl.setPosition(-700, -500);
+		
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
-
+		
 		swagShader = new ColorSwap();
 		/*if(!FlxG.save.data.psykaEasterEgg || !easterEggEnabled) {*/
 			gfDance = new FlxSprite(titleJSON.gfx, titleJSON.gfy);
 			gfDance.frames = Paths.getSparrowAtlas('gfDanceTitle');
 			gfDance.animation.addByIndices('danceLeft', 'gfDance', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, true);
 			gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, true);
+			gfDance.setPosition(700, 1000);
+			//if (skippedIntro = true) {
+			//	FlxTween.tween(gfDance, {y: 50}, 1.5, {ease: FlxEase.sineOut});
+			//}
+			
+
 		/*}
 		else //Psyka easter egg
 		{
@@ -315,13 +314,23 @@ class TitleState extends MusicBeatState
 
 		credTextShit.visible = false;
 
-		logoSpr = new FlxSprite(0, FlxG.height * 0.4).loadGraphic(Paths.image('titlelogo'));
-		add(logoSpr);
-		logoSpr.visible = false;
-		logoSpr.setGraphicSize(Std.int(logoSpr.width * 0.55));
-		logoSpr.updateHitbox();
-		logoSpr.screenCenter(X);
-		logoSpr.antialiasing = ClientPrefs.globalAntialiasing;
+		//logoSpr = new FlxSprite(0, FlxG.height * 0.4).loadGraphic(Paths.image('titlelogo'));
+		//add(logoSpr);
+		//logoSpr.visible = false;
+		//logoSpr.setGraphicSize(Std.int(logoSpr.width * 0.55));
+		//logoSpr.updateHitbox();
+		//logoSpr.screenCenter(X);
+		//logoSpr.antialiasing = ClientPrefs.globalAntialiasing;
+
+		ikeONS = new FlxSprite(0, FlxG.height * 0.4).loadGraphic(Paths.image('IKEons'));
+		add(ikeONS);
+		ikeONS.visible = false;
+		ikeONS.setGraphicSize(Std.int(ikeONS.width * 1.1));
+		ikeONS.updateHitbox();
+		ikeONS.screenCenter(X);
+		ikeONS.screenCenter(Y);
+		ikeONS.antialiasing = ClientPrefs.globalAntialiasing;
+
 
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
 
@@ -331,6 +340,8 @@ class TitleState extends MusicBeatState
 			initialized = true;
 
 		// credGroup.add(credTextShit);
+
+		
 	}
 
 	function getIntroTextShit():Array<Array<String>>
@@ -484,6 +495,9 @@ class TitleState extends MusicBeatState
 		}
 	}
 
+	
+
+
 	function addMoreText(text:String, ?offset:Float = 0)
 	{
 		if(textGroup != null && credGroup != null) {
@@ -503,6 +517,7 @@ class TitleState extends MusicBeatState
 			textGroup.remove(textGroup.members[0], true);
 		}
 	}
+
 
 	private var sickBeats:Int = 0; //Basically curBeat but won't be skipped if you hold the tab or resize the screen
 	public static var closedState:Bool = false;
@@ -527,33 +542,33 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					createCoolText(['Psych Engine by'], 15);
+					createCoolText(['Mod by'], 15);
 				// credTextShit.visible = true;
+				case 2:
+					addMoreText('Myrick', 15);
 				case 3:
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('bb-panzu', 15);
+					addMoreText('Dinebon_', 15);
+				case 4:
+					addMoreText('Neon', 15);
+				case 5:
+					addMoreText('ever1n', 15);
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
-				case 4:
+				case 6:
 					deleteCoolText();
 				// credTextShit.visible = false;
 				// credTextShit.text = 'In association \nwith';
 				// credTextShit.screenCenter();
-				case 5:
-					createCoolText(['This is a mod to'], -60);
 				case 7:
-					addMoreText('This game right below lol', -60);
-					logoSpr.visible = true;
+					ikeONS.visible = true;
 				// credTextShit.text += '\nNewgrounds';
-				case 8:
-					deleteCoolText();
-					logoSpr.visible = false;
+				case 9:
+					ikeONS.visible = false;
 				// credTextShit.visible = false;
 
 				// credTextShit.text = 'Shoutouts Tom Fulp';
 				// credTextShit.screenCenter();
-				case 9:
+				case 10:
 					createCoolText([curWacky[0]]);
 				// credTextShit.visible = true;
 				case 11:
@@ -585,11 +600,18 @@ class TitleState extends MusicBeatState
 	{
 		if (!skippedIntro)
 		{
-			remove(logoSpr);
+			remove(ikeONS);
 
 			FlxG.camera.flash(FlxColor.WHITE, 4);
+			
+			FlxTween.tween(gfDance, {x: 550 ,y: 50}, 1.3, {ease: FlxEase.backOut});
+			FlxTween.tween(logoBl, {x: -120 ,y: -100, angle: -10}, 1, {ease: FlxEase.backOut});
+
 			remove(credGroup);
 			skippedIntro = true;
+
+			FlxTween.tween(logoBl, {angle: 10}, 2, {type:FlxTween.PINGPONG, startDelay: 0.1, ease: FlxEase.cubeOut});
+			
 		}
 	}
 }
